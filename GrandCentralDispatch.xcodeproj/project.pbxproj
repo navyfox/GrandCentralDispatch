@@ -12,6 +12,7 @@
 		20085B061D5AF5D900CCA4AE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20085B041D5AF5D900CCA4AE /* Main.storyboard */; };
 		20085B081D5AF5D900CCA4AE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 20085B071D5AF5D900CCA4AE /* Assets.xcassets */; };
 		20085B0B1D5AF5D900CCA4AE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20085B091D5AF5D900CCA4AE /* LaunchScreen.storyboard */; };
+		20085B131D5AF9C300CCA4AE /* PictureViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20085B121D5AF9C300CCA4AE /* PictureViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		20085B071D5AF5D900CCA4AE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		20085B0A1D5AF5D900CCA4AE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		20085B0C1D5AF5D900CCA4AE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		20085B121D5AF9C300CCA4AE /* PictureViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PictureViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			children = (
 				20085B001D5AF5D900CCA4AE /* AppDelegate.swift */,
 				20085B021D5AF5D900CCA4AE /* ViewController.swift */,
+				20085B121D5AF9C300CCA4AE /* PictureViewController.swift */,
 				20085B041D5AF5D900CCA4AE /* Main.storyboard */,
 				20085B071D5AF5D900CCA4AE /* Assets.xcassets */,
 				20085B091D5AF5D900CCA4AE /* LaunchScreen.storyboard */,
@@ -136,6 +139,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				20085B031D5AF5D900CCA4AE /* ViewController.swift in Sources */,
+				20085B131D5AF9C300CCA4AE /* PictureViewController.swift in Sources */,
 				20085B011D5AF5D900CCA4AE /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
