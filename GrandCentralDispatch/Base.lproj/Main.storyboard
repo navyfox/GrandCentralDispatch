@@ -51,21 +51,30 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="6wW-yE-xSa">
-                                <rect key="frame" x="0.0" y="64" width="600" height="400"/>
+                                <rect key="frame" x="0.0" y="64" width="600" height="300"/>
                                 <color key="backgroundColor" red="1" green="0.5" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="400" id="Fvw-Jy-xis"/>
+                                    <constraint firstAttribute="height" constant="300" id="Fvw-Jy-xis"/>
                                 </constraints>
                             </imageView>
+                            <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" style="gray" translatesAutoresizingMaskIntoConstraints="NO" id="SS9-fS-acp">
+                                <rect key="frame" x="290" y="290" width="20" height="20"/>
+                            </activityIndicatorView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
+                            <constraint firstItem="SS9-fS-acp" firstAttribute="centerY" secondItem="3CQ-CT-apE" secondAttribute="centerY" id="0p5-Eo-emL"/>
                             <constraint firstItem="6wW-yE-xSa" firstAttribute="top" secondItem="rho-iA-qzh" secondAttribute="bottom" id="Ntw-3O-Okf"/>
                             <constraint firstAttribute="trailingMargin" secondItem="6wW-yE-xSa" secondAttribute="trailing" constant="-20" id="QYM-2o-Dll"/>
                             <constraint firstItem="6wW-yE-xSa" firstAttribute="centerX" secondItem="3CQ-CT-apE" secondAttribute="centerX" id="QYM-Vw-EJO"/>
+                            <constraint firstItem="SS9-fS-acp" firstAttribute="centerX" secondItem="3CQ-CT-apE" secondAttribute="centerX" id="l0S-pB-g5H"/>
                             <constraint firstItem="6wW-yE-xSa" firstAttribute="leading" secondItem="3CQ-CT-apE" secondAttribute="leadingMargin" constant="-20" id="wMe-Zd-MsI"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="ImageView" destination="6wW-yE-xSa" id="lH7-Tv-tcf"/>
+                        <outlet property="activityIndicator" destination="SS9-fS-acp" id="Qcd-NR-dms"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Fk5-3F-SBF" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
